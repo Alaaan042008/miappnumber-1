@@ -1,4 +1,7 @@
+
+import React from "react";
 import { Text, View } from "react-native";
+import Hello from "@/Components/Hello";
 
 export default function Index() {
   return (
@@ -9,7 +12,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Hello></Hello>
     </View>
   );
 }
